@@ -1,0 +1,39 @@
+{
+  "Routes": [
+    {
+      "UseSeriviceDiscovery": true,
+      "DownstreamPathTemplate": "/api/tea/{anything}",
+      "DownstreamScheme": "https",
+      "ServiceName": "teaService",
+      "UpstreamPathTemplate": "/api/gateway/tea/{anything}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "ReRoutesCaseSensitive": false,
+      //"RateLimitOptions": {
+      //  "ClientWhitelist": [],
+      //  "EnableRateLimiting": true,
+      //  "Period": "5s",
+      //  "PeriodTimespan": 1,
+      //  "Limit": 1
+      //},
+      "FileCacheOptions": {
+        "TtlSeconds": 15
+      }
+    },
+    {
+      "UseSeriviceDiscovery": true,
+      "DownstreamPathTemplate": "/api/coffee/{anything}",
+      "DownstreamScheme": "https",
+      "ServiceName": "coffeeService",
+      "UpstreamPathTemplate": "/api/gateway/coffee/{anything}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "ReRoutesCaseSensitive": false
+    }
+  ],
+  "GlobalConfiguration": {
+    "ServiceDiscoveryProvider": {
+      "Host": "localhost",
+      "Port": 8500,
+      "Type": "Consul"
+    }
+  }
+}

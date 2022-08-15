@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeaApi", "TeaApi\TeaApi.csproj", "{043549C3-EC2F-45C0-92CA-6E20D65F9EB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeApi", "CoffeeApi\CoffeeApi.csproj", "{3D87C355-B99C-4933-93ED-ED64AA51AC58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotApiGateway", "OcelotApiGateway\OcelotApiGateway.csproj", "{93B73E71-D3B3-43BE-8C95-998111C753FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{043549C3-EC2F-45C0-92CA-6E20D65F9EB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{043549C3-EC2F-45C0-92CA-6E20D65F9EB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{043549C3-EC2F-45C0-92CA-6E20D65F9EB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{043549C3-EC2F-45C0-92CA-6E20D65F9EB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D87C355-B99C-4933-93ED-ED64AA51AC58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D87C355-B99C-4933-93ED-ED64AA51AC58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D87C355-B99C-4933-93ED-ED64AA51AC58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D87C355-B99C-4933-93ED-ED64AA51AC58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93B73E71-D3B3-43BE-8C95-998111C753FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93B73E71-D3B3-43BE-8C95-998111C753FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93B73E71-D3B3-43BE-8C95-998111C753FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93B73E71-D3B3-43BE-8C95-998111C753FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8CBD63C-F886-4505-8255-3CFAF5A58DC5}
+	EndGlobalSection
+EndGlobal
